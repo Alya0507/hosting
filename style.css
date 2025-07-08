@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background: #ffe9f3; /* Pink pastel */
+    color: #5a2a5a;
+}
+
+h2, h3 {
+    color: #b03a78; /* Pink tua */
+}
+
+form {
+    margin-bottom: 30px;
+    background: #fbd7f4; /* Soft pink */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(176, 58, 120, 0.1);
+    border: 1px solid #f5c6e7;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #dda0dd;
+    background: #fff0fa;
+    color: #4a004a;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #f78acb; /* Bubblegum pink */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e76bb0;
+}
+
+.komentar-box {
+    padding: 12px;
+    border-bottom: 1px solid #f3c6e5;
+    background-color: #fff5fa;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(204, 153, 204, 0.2);
+}
